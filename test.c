@@ -10,8 +10,8 @@ int main(){
 		printf("%c", my_arr[i]);
 	}
 
+        printf("%d\n", '\0');
 	printf("\n");
-
 	printf("please what is the lenght of your");
 	printf("name(firsname + lasname):");
 	scanf("%d", &size_);

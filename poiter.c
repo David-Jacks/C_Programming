@@ -1,15 +1,14 @@
 #include <stdio.h>
 
-void interchange(int * u, int * v);
-int main(void){
-	
+void interchange(int * u, int * v);/*function prototype*/
+int main(void)
+{	
 	int x = 4;
         int y = 9;	
 	int z = 20;
-	
-	int * ptr = &z;
+	int * ptr = &z;/*pointer initialization*/
 
-	int f = *ptr;
+	int f = *ptr;/*calling values at addresses*/
 
 	printf("z = %d, and f = %d\n", z, f);
 
